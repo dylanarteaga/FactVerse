@@ -293,22 +293,9 @@ body{
   padding: 15px;
   border-radius: 10px;
   font-size: 0.9rem;
-  transition: transform 0.2s ease;
   line-height: 1.4;
 }
 
-.box:hover {
-  transform: scale(1.05);
-  background: #1f2937;
-  border-color: rgba(255,255,255,0.15);
-}
-.box:nth-child(3n) {
-  background: linear-gradient(135deg, #1e1b4b, #111827);
-}
-
-.box:nth-child(5n) {
-  background: linear-gradient(135deg, #0f172a, #1e293b);
-}
 .grid-explorar {
   gap: 14px;
 }
